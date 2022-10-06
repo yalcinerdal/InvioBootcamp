@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         profilePhoto.layer.cornerRadius = profilePhoto.frame.height / 2
         profilePhoto.clipsToBounds = true
         
-        sendPerson1.layer.cornerRadius = sendPerson1.frame.height / 2
+/*        sendPerson1.layer.cornerRadius = sendPerson1.frame.height / 2
         sendPerson1.clipsToBounds = true
         sendPerson1.layer.borderWidth = 2
         
@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         sendPerson5.layer.cornerRadius = sendPerson5.frame.height / 2
         sendPerson5.clipsToBounds = true
         sendPerson5.layer.borderWidth = 2
-        
+        */
         collectionV.dataSource = self
         collectionV.delegate = self
         self.collectionV.register(UINib(nibName:"TransactionsCVC", bundle: nil), forCellWithReuseIdentifier: TransactionsCVC.identifier)
